@@ -1,0 +1,49 @@
+{
+    "name": "lameck/manuser",
+    "description": "\"Manager user for Laravel\"",
+    "keywords": [
+        "auth",
+        "authentication",
+        "json web token",
+        "jwt",
+        "laravel",
+        "manuser"
+    ],
+    "homepage": "https://github.com/EuFreela/PL5-Manuser-JWT",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lameck Fernandes",
+            "email": "lameckfernandes@hotmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "tymon/jwt-auth": "dev-develop",
+        "php": "^5.5.9 || ^7.0",
+        "illuminate/auth": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.* || 5.6.*",
+        "illuminate/contracts": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.* || 5.6.*",
+        "illuminate/http": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.* || 5.6.*",
+        "illuminate/support": "5.1.* || 5.2.* || 5.3.* || 5.4.* || 5.5.* || 5.6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lameck\\Manuser\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Lameck\\Manuser\\ManuserServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
