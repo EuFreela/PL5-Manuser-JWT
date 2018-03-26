@@ -101,8 +101,17 @@ Utilize o postman para testar a api.<br>
 <p>Estarei disponibilizando mais detalhes na <a href="https://github.com/EuFreela/PL5-Manuser-JWT/wiki">wiki</a></p>
 
 
+<hr>
 
-
+### Detalhe
+<p>O numero de requisições por default esta 1,1 (1 requisição por minuto - throttle:1,1). Para auterar este valor, basta acessar as dependencias vendor/lameck/manuser/route.php. O primeiro valor é o numero de requisiçes.</p>
+<blockquote><pre>
+Route::group(['prefix' => 'manuser'], function()
+{
+    Route::post('authenticate', '\Lameck\Manuser\ManuserController@authenticate');
+    Route::middleware('jwt.auth','throttle:1,1')->get('users','\Lameck\Manuser\ManuserController@users');
+});
+</pre><blockquote>
 
 
 
