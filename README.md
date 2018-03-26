@@ -86,12 +86,21 @@ Utilize o postman para testar a api.<br>
 <p>POST</p>
 <blockquote>localhost:8000/manuser/authenticate?email=jerry@gmail.com&password=secret</blockquote>
 <br>
-<img src="https://s18.postimg.org/nhr3b26gp/Captura_de_tela_de_2018-03-25_20-56-48.png" width="300" height="300"
+<img src="https://s18.postimg.org/nhr3b26gp/Captura_de_tela_de_2018-03-25_20-56-48.png" width="900" height="500"
 
 <br>
 <p>GET</p>
 <blockquote>localhost:8000/manuser/users?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6ODAwMFwvbWFudXNlclwvYXV0aGVudGljYXRlIiwiaWF0IjoxNTIyMDIwNTc5LCJleHAiOjE1MjIwMjQxNzksIm5iZiI6MTUyMjAyMDU3OSwianRpIjoidzA0YnRpejU3Q1NZRjRuZyIsInN1YiI6MSwicHJ2IjoiODdlMGFmMWVmOWZkMTU4MTJmZGVjOTcxNTNhMTRlMGIwNDc1NDZhYSJ9.xMWZb27t-VgyE5BbR0N5l1Iyf4Y4n5QBF-IuBA_CJgQ</blockquote>
 <br>
+<img src="https://s18.postimg.org/6v9j1l0jt/Captura_de_tela_de_2018-03-25_21-03-13.png" width="900" height="500"
+<BR>
+
+
+<HR>
+<p>Em resumo, o packager trata-se de uma automação de uso com API RestFull utilizando JWT. Para utilizarmo-lo, faz-se necessário a configuração manual - comum para quem já é veterano com o framework laravel.</p>
+<p>Estarei disponibilizando mais detalhes na <a href="https://github.com/EuFreela/PL5-Manuser-JWT/wiki">wiki</a></p>
+
+
 
 
 
