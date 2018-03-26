@@ -3,6 +3,8 @@
 
 <p>Packagers são interessantes para otimização de trabalho com programação. Eventos que são comuns a cada projeto poderão ser reaproveitados. Para evitar programar sempre a mesma rotina, os packagers ajudam a acelerar esse processo mantendo você ocupado com o que é realmente necessário. Em resumo, trata-se de otimização das rotinas.</p>
 <p>Este packager tem o objetivo de otimizar o roteamento, controllers e middleware para credenciamento utilizando RestFull com JWT.</p>
+<br>
+<a href="https://packagist.org/packages/lameck/manuser">Assinatura: Packagerlist</a>
 
 <hr>
 
@@ -97,14 +99,14 @@ Utilize o postman para testar a api.<br>
 
 
 <HR>
-<p>Em resumo, o packager trata-se de uma automação de uso com API RestFull utilizando JWT - no utilizamos mais o token nativo VerifyCsrfToken para cross-site-script, em seu lugar estamos usando JWT. Para utilizarmo-lo, faz-se necessário a configuração manual - comum para quem já é veterano com o framework laravel.</p>
+<p>Em resumo, o packager trata-se de uma automação de uso com API RestFull utilizando JWT - não utilizamos mais o token nativo VerifyCsrfToken - principalmente para cross-site-script, em seu lugar estamos usando JWT. Para utilizarmo-lo, faz-se necessário a configuração manual - comum para quem já é veterano com o framework laravel.</p>
 <p>Estarei disponibilizando mais detalhes na <a href="https://github.com/EuFreela/PL5-Manuser-JWT/wiki">wiki</a></p>
 
 
 <hr>
 
 ### Detalhe
-<p>O numero de requisições por default esta 1,1 (1 requisição por minuto - throttle:1,1). Para auterar este valor, basta acessar as dependencias vendor/lameck/manuser/route.php. O primeiro valor é o numero de requisiçes.</p>
+<p>O numero de requisições por default esta 1,1 (1 requisição por minuto - throttle:1,1). Para auterar este valor, basta acessar as dependencias vendor/lameck/manuser/route.php. O primeiro valor é o numero de requisiçes e o segundo é o tempo decorrido até a próxima requisição.</p>
 <blockquote><pre>
 Route::group(['prefix' => 'manuser'], function()
 {
