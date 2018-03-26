@@ -97,7 +97,7 @@ Utilize o postman para testar a api.<br>
 
 
 <HR>
-<p>Em resumo, o packager trata-se de uma automação de uso com API RestFull utilizando JWT. Para utilizarmo-lo, faz-se necessário a configuração manual - comum para quem já é veterano com o framework laravel.</p>
+<p>Em resumo, o packager trata-se de uma automação de uso com API RestFull utilizando JWT - no utilizamos mais o token nativo VerifyCsrfToken para cross-site-script, em seu lugar estamos usando JWT. Para utilizarmo-lo, faz-se necessário a configuração manual - comum para quem já é veterano com o framework laravel.</p>
 <p>Estarei disponibilizando mais detalhes na <a href="https://github.com/EuFreela/PL5-Manuser-JWT/wiki">wiki</a></p>
 
 
