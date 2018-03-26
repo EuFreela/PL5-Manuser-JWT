@@ -1,7 +1,7 @@
 # PL5-Manuser-JWT
 #### Packager Manager User com JWT
 
-<p>Packagers são interessantes para otimização de trabalho com programação. Eventos que são comuns a cada projeto poderão ser aproveitados. Para evitar programar sempre a mesma rotina, os packager ajudam a acelerar esse processo mantendo você ocupado com o que é necessário. Em resumo, trata-se de otimização das rotinas.</p>
+<p>Packagers são interessantes para otimização de trabalho com programação. Eventos que são comuns a cada projeto poderão ser reaproveitados. Para evitar programar sempre a mesma rotina, os packager ajudam a acelerar esse processo mantendo você ocupado com o que é necessário. Em resumo, trata-se de otimização das rotinas.</p>
 <p>Este packager tem o objetivo de otimizar o roteamento, controllers e middleware para credenciamento utilizando RestFull.</p>
 
 <hr>
