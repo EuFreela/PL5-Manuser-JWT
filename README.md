@@ -64,7 +64,9 @@ Adicione em na classe:<br>
 </b>
 </pre></blockquote>
 <br>
-<p>Pare o servidor, se estiver rodando e limpe o cache. Após, reinicie: <b>php artisan cache:clear;php artisan serve</b></p>. Se não fizer isso é possivel que a mensagem de erro seja: "Acesso negado"
+<p>Pare o servidor, se estiver rodando e limpe o cache. Após, reinicie:<br>
+<b>php artisan cache:clear;php artisan serve</b></p><br>
+Se não fizer isso é possivel que a mensagem de erro seja: <b>"Acesso negado"</b>
 
 <hr>
 
