@@ -55,6 +55,7 @@ Adicione:<br>
 Adicione em na classe:<br>
 <blockquote><pre>
 <b>use Tymon\JWTAuth\Contracts\JWTSubject;</b>
+<b>class User extends Authenticatable implements JWTSubject{...}</b>
 <b>public function getJWTCustomClaims(): array {
         return [];
     }</b>
