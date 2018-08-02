@@ -86,7 +86,8 @@ DB::table('users')->delete();
   DB::table('users')->insert($users);
 </pre></blockquote>
 
-<b>php artisan db:seed</b>
+<b>php artisan db:seed</b><br>
+<b>php artisan jwt:secret</b>
 
 Utilize o postman para testar a api.<br>
 <p>POST</p>
